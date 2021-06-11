@@ -344,7 +344,6 @@ def main():
             np.save(os.path.join(a.output_dir, "input.npy"), input_real)
             np.save(os.path.join(a.output_dir, "output.npy"), output_real)
             np.save(os.path.join(a.output_dir, "target.npy"), target_real)
-            np.save("output/output.npy", output_real)
         else:
             for step in range(max_steps):
                 def should(freq):
